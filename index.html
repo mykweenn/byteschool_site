@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.72.0">
+  <title>ByteSchool</title>
+  <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/album/">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <!-- Bootstrap core CSS -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous"> -->
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="js/carousel.js"></script>
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <header>
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">О нас</h4>
+            <p class="text-muted">Тестовая информация. Заполни потом когда придумаешь что-то.</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Контакты</h4>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white">Свяжитесь с нами в WhatsApp</a></li>
+              <li><a href="#" class="text-white">Подпишитесь на наш ВК</a></li>
+              <li><a href="#" class="text-white">Связаться по электронной почте</a></li>
+              <li><a href="https://t.me/byteschool_04" target="_blank" class="text-white">Написать в Telegram</a></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2"
+            viewBox="0 0 24 24">
+            <img src="https://icons8.com/icon/tdN2T4QKpYxe/html" alt="">
+          </svg>
+          <strong>ByteSchool</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="font-weight-light">ByteSchool</h1>
+          <p class="lead text-muted">Научим сложным вещам простым языком</p>
+          <p>
+            <a href="https://vk.com/cringey" target="_blank" class="btn btn-primary my-2">Записаться</a>
+          </p>
+          <p>
+            <a href="https://t.me/byteschool_04" target="_blank" class="btn btn-secondary my-2">Задать вопрос</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+
+              <title>Placeholder</title>
+              <img class="placeholder__img" height="100%" width="100%"
+                src="https://app2top.ru/wp-content/uploads/2021/04/godot-web-editor.png" alt="">
+              <text class="placeholder__title" x="50%" y="50%" fill="#eceeef" dy=".3em">Godot Engine</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Godot Engine - это бесплатный игровой движок, который используется для создания 2D
+                  и 3D игр на различных платформах,
+                  включая Windows, macOS, Linux, Android, iOS и многие другие.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Записаться</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Помощь</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <title>Placeholder</title>
+              <img class="placeholder__img" height="100%" width="100%"
+                src="https://loopstudio.dev/wp-content/uploads/2022/08/Blog-6-scaled.jpg" alt="">
+              <text class="placeholder__title" x="50%" y="50%" fill="#eceeef" dy=".3em">Веб-разработка</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Веб-разработка - наши курсы помогут детям освоить языки программирования,
+                  необходимые для создания веб-сайтов.
+                  Ученики научатся создавать сайты с использованием HTML, CSS и JavaScript.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" href="#">Записаться</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Помощь</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <title>Placeholder</title>
+              <img class="placeholder__img" height="100%" width="100%"
+                src="https://projects-static.raspberrypi.org/projects/getting-started-scratch/a1f9f40b0427034a6397bca41580a012ac3683a5/en/images/ScratchGuide_Banner.png"
+                alt="">
+              <text class="placeholder__title" x="50%" y="50%" fill="#eceeef" dy=".3em">Scratch</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Scratch - это бесплатная обучающая платформа, которая помогает детям и начинающим
+                  программистам
+                  создавать свои собственные интерактивные игры, анимации и приложения.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Записаться</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Помощь</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="album py-5 bg-light">
+      <h1>Часто задаваемые вопросы</h1>
+      <div class="faq-container">
+        <div class="faq active">
+          <h3 class="faq-title">Как вас найти?</h3>
+          <p class="faq-text">
+            Мы находимся по адресу: ул. Валерия-Чаптынова, д. 2
+          </p>
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="faq">
+          <h3 class="faq-title">Занятия очные?</h3>
+          <p class="faq-text">
+            Да. Преимущественно все наши занятия проходят в очном формате. Однако, в некоторых случаях мы можем
+            договориться о дистанционных занятиях.
+          </p>
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="faq">
+          <h3 class="faq-title">Что мой ребенок получит еще кроме программирования?</h3>
+          <p class="faq-text">
+            Помимо самого программирования ваш ребенок получит много сопутствующих навыков. Например: <br>
+            <strong>Английский язык</strong> позвоялет лучше понимать код и документацию к инструментам
+            программирования;<br>
+            <strong>Компьютерная грамотность</strong> будет улучшаться, ведь Ваш ребенок будет не просто играть в
+            компьютере, но и учиться работать с ним! <br>
+            <strong>Мышление</strong> у наших учеников будет также правильно выстраиваться для работы с алгоритмами, а
+            так же для
+            проектирования своих работ.
+          </p>
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="faq">
+          <h3 class="faq-title">Нужно ли ребенку иметь собственное оборудование?</h3>
+          <p class="faq-text">
+            Нет, вовсе не обязательно. В наших классах мы предоставим все необходимое оборудование для комфортного
+            обучения.
+          </p>
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="faq">
+          <h3 class="faq-title">Когда стартуют занятия?</h3>
+          <p class="faq-text">
+            Мы набираем группы ежемесячно, чтобы ваш ребенок помимо знаний по программированию приобретал также и новые
+            знакомства.
+          </p>
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="faq">
+          <h3 class="faq-title">Опытные ли преподаватели?</h3>
+          <p class="faq-text">
+            В нашей школе программирования мы гордимся тем, что наши преподаватели не только обладают хорошей
+            квалификацией, но и сами активно занимаются разработкой и работают над проектами.
+            <br>
+            В нашей школе
+            программирования мы гордимся тем, что наши преподаватели не только обладают высокой квалификацией и опытом
+            работы в сфере IT, но и сами активно занимаются разработкой и работают над проектами.
+            <br>
+            Кроме того, такой подход к обучению позволяет нам создавать более глубокую связь между преподавателями и
+            учениками, так как они могут обмениваться опытом и задавать друг другу вопросы о реальных проектах. Мы
+            считаем, что это один из ключевых факторов успеха наших учеников и готовы продолжать работать в этом
+            направлении.
+          </p>
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+      <script src="js/script.js"></script>
+    </section>
+    <section class="calendar">
+      <div id="SiteWidgetMoyklass86319"></div>
+
+    </section>
+  </main>
+
+  <footer class="text-muted py-5" Наверх>
+    <div class="container">
+      <p class="float-right mb-1">
+        <a href="#">Наверх</a>
+      </p>
+      <p class="mb-1">ByteSchool &copy; ИП Шинжин Э.Э.</p>
+      <p class="mb-0">Новенький? <a href="/">Ссылки на доп контакты</a> или свяжитесь с нами <a
+          href="/docs/5.0/getting-started/introduction/">гайд по бутстрапу</a>.</p>
+    </div>
+  </footer>
+  <!-- MoyKlass widget begin -->
+  <script src="https://app.moyklass.com/api/site/widget/?id=01iqCLrVhPNj5m1zWrsXVJOiXPtC5G4GoFTQ" type="text/javascript"
+    charset="UTF-8"></script>
+  <!-- MoyKlass widget end -->
+  <script src="js/carousel.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gsap/1.19.1/TweenMax.min.js"></script>
+  <script src="https://cdpn.io/cpe/boomboom/pen.js?key=pen.js-664912fc-21ad-a770-3447-5124d2c44c8b" crossorigin="">
+  </script>
+  <script>
+    (function (w, d, u) {
+      var s = d.createElement('script');
+      s.async = true;
+      s.src = u + '?' + (Date.now() / 60000 | 0);
+      var h = d.getElementsByTagName('script')[0];
+      h.parentNode.insertBefore(s, h);
+    })(window, document, 'https://cdn-ru.bitrix24.ru/b27121786/crm/site_button/loader_2_0w0eq3.js');
+  </script>
+</body>
+
+</html>
